@@ -1,0 +1,56 @@
+<li><img width="20px" src="./images/svg/pt.svg"/> <span class="lang-name">Português(PT)</span></li>
+<li><img width="20px" src="./images/svg/fi.svg"/> <span class="lang-name">Suomi(FI)</span></li>
+<li><img width="20px" src="./images/svg/fi.svg"/> <span class="lang-name">Svenska(FI)</span></li>
+<li><img width="20px" src="./images/svg/sk.svg"/> <span class="lang-name">Slovenčina(SK)</span></li>
+<li><img width="20px" src="./images/svg/sk.svg"/> <span class="lang-name">Magyar(SK)</span></li>
+<li><img width="20px" src="./images/svg/cz.svg"/> <span class="lang-name">Čeština(CZ)</span></li>
+<li><img width="20px" src="./images/svg/no.svg"/> <span class="lang-name">Norsk(NO)</span></li>
+<li><img width="20px" src="./images/svg/pl.svg"/> <span class="lang-name">Język polski(PL)</span></li>
+<li><img width="20px" src="./images/svg/de.svg"/> <span class="lang-name">Deutsch(DE)</span></li>
+<li><img width="20px" src="./images/svg/lv.svg"/> <span class="lang-name">Latviešu valoda(LV)</span></li>
+<li><img width="20px" src="./images/svg/lv.svg"/> <span class="lang-name">Русский(LV)</span></li>
+<li><img width="20px" src="./images/svg/al.svg"/> <span class="lang-name">Shqip(AL)</span></li>
+<li><img width="20px" src="./images/svg/be.svg"/> <span class="lang-name">Nederlands(BE)</span></li>
+<li><img width="20px" src="./images/svg/be.svg"/> <span class="lang-name">Français(BE)</span></li>
+<li><img width="20px" src="./images/svg/lu.svg"/> <span class="lang-name">Lëtzebuergesch(LU)</span></li>
+<li><img width="20px" src="./images/svg/lu.svg"/> <span class="lang-name">Français(LU)</span></li>
+<li><img width="20px" src="./images/svg/lu.svg"/> <span class="lang-name">Deutsch(LU)</span></li>
+<li><img width="20px" src="./images/svg/me.svg"/> <span class="lang-name">Српски језик(ME)</span></li>
+<li><img width="20px" src="./images/svg/me.svg"/> <span class="lang-name">Bosanski jezik(ME)</span></li>
+<li><img width="20px" src="./images/svg/bg.svg"/> <span class="lang-name">Български език(BG)</span></li>
+<li><img width="20px" src="./images/svg/ro.svg"/> <span class="lang-name">Limba română(RO)</span></li>
+<li><img width="20px" src="./images/svg/tr.svg"/> <span class="lang-name">Türkçe(TR)</span></li>
+<li><img width="20px" src="./images/svg/at.svg"/> <span class="lang-name">Deutsch(AT)</span></li>
+<li><img width="20px" src="./images/svg/ch.svg"/> <span class="lang-name">Deutsch(CH)</span></li>
+<li><img width="20px" src="./images/svg/ch.svg"/> <span class="lang-name">Français(CH)</span></li>
+<li><img width="20px" src="./images/svg/ch.svg"/> <span class="lang-name">Italiano(CH)</span></li>
+<li><img width="20px" src="./images/svg/sm.svg"/> <span class="lang-name">Italiano(SM)</span></li>
+<li><img width="20px" src="./images/svg/rs.svg"/> <span class="lang-name">Српски језик(RS)</span></li>
+<li><img width="20px" src="./images/svg/se.svg"/> <span class="lang-name">Svenska(SE)</span></li>
+<li><img width="20px" src="./images/svg/gb.svg"/> <span class="lang-name">English(GB)</span></li>
+<li><img width="20px" src="./images/svg/lt.svg"/> <span class="lang-name">Lietuvių kalba(LT)</span></li>
+<li><img width="20px" src="./images/svg/mt.svg"/> <span class="lang-name">Malti(MT)</span></li>
+<li><img width="20px" src="./images/svg/mt.svg"/> <span class="lang-name">English(MT)</span></li>
+<li><img width="20px" src="./images/svg/it.svg"/> <span class="lang-name">Italiano(IT)</span></li>
+<li><img width="20px" src="./images/svg/is.svg"/> <span class="lang-name">Íslenska(IS)</span></li>
+<li><img width="20px" src="./images/svg/ee.svg"/> <span class="lang-name">Eesti(EE)</span></li>
+<li><img width="20px" src="./images/svg/ee.svg"/> <span class="lang-name">Русский(EE)</span></li>
+<li><img width="20px" src="./images/svg/ie.svg"/> <span class="lang-name">English(IE)</span></li>
+<li><img width="20px" src="./images/svg/ie.svg"/> <span class="lang-name">Gaeilge(IE)</span></li>
+<li><img width="20px" src="./images/svg/es.svg"/> <span class="lang-name">Español(ES)</span></li>
+<li><img width="20px" src="./images/svg/si.svg"/> <span class="lang-name">Slovenski jezik(SI)</span></li>
+<li><img width="20px" src="./images/svg/hu.svg"/> <span class="lang-name">Magyar(HU)</span></li>
+<li><img width="20px" src="./images/svg/mk.svg"/> <span class="lang-name">Македонски јазик(MK)</span></li>
+<li><img width="20px" src="./images/svg/mk.svg"/> <span class="lang-name">Shqip(MK)</span></li>
+<li><img width="20px" src="./images/svg/xk.svg"/> <span class="lang-name">Shqip(XK)</span></li>
+<li><img width="20px" src="./images/svg/hr.svg"/> <span class="lang-name">Hrvatski jezik(HR)</span></li>
+<li><img width="20px" src="./images/svg/hr.svg"/> <span class="lang-name">Bosanski jezik(HR)</span></li>
+<li><img width="20px" src="./images/svg/dk.svg"/> <span class="lang-name">Dansk(DK)</span></li>
+<li><img width="20px" src="./images/svg/ba.svg"/> <span class="lang-name">Bosanski jezik(BA)</span></li>
+<li><img width="20px" src="./images/svg/ba.svg"/> <span class="lang-name">Hrvatski jezik(BA)</span></li>
+<li><img width="20px" src="./images/svg/ba.svg"/> <span class="lang-name">Српски језик(BA)</span></li>
+<li><img width="20px" src="./images/svg/nz.svg"/> <span class="lang-name">Te reo Māori(NZ)</span></li>
+<li><img width="20px" src="./images/svg/nz.svg"/> <span class="lang-name">English(NZ)</span></li>
+<li><img width="20px" src="./images/svg/gr.svg"/> <span class="lang-name">Ελληνικά(GR)</span></li>
+<li><img width="20px" src="./images/svg/ca.svg"/> <span class="lang-name">English(CA)</span></li>
+<li><img width="20px" src="./images/svg/ca.svg"/> <span class="lang-name">Français(CA)</span></li>
