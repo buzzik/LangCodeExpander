@@ -21,11 +21,11 @@ let resultFile = '';
 })();
 
 function htmlString(langCode, countryCode, localeCode) {
-    return `<li><img width="20px" src="./images/svg/${countryCode.toLowerCase()}.svg"/> <span class="lang-name">${capitalizeFirstLetter(localeCode)}(${countryCode})</span></li>`;
+    return `<li><img width="20px" src="../images/svg/${countryCode.toLowerCase()}.svg"/> <span class="lang-name">${capitalizeFirstLetter(localeCode)}(${countryCode})</span></li>`;
 }
 
 function txtString(langCode, countryCode, localeCode) {
-    return `${langCode},${localeCode},${capitalizeFirstLetter(localeCode)}(${countryCode}),/images/svg/${countryCode.toLowerCase()}.svg`;
+    return `${langCode},${localeCode},${capitalizeFirstLetter(localeCode)}(${countryCode}),../images/svg/${countryCode.toLowerCase()}.svg`;
 }
 
 function readFiles(filepath) {
