@@ -3,11 +3,10 @@ const fs = require('fs');
 
 module.exports = class FileWriter {
     constructor() {}
-    createFile(name, ext) {
+    createFile(name) {
         name = name || 'checked';
-        ext = ext || 'txt';
         let now = new Date();
-        let resFileName = `./result/${now.getTime()}_${name}.${ext}`;
+        let resFileName = `./result/${now.getTime()}_${name}`;
         fs.writeFile(resFileName, '', (err) => {
             if (err) throw err;
         });
@@ -15,18 +14,17 @@ module.exports = class FileWriter {
         return resFileName;
     }
     async writeArray(array, fileName, fields) {
-        fields = fields || false;
-        let path = this.createFile(fileName, "txt");
+        // fields = fields || false;
+        let path = this.createFile(fileName);
         let file = fs.createWriteStream(path);
         file.on('error', function(err) { Console.log(err) });
         let columnCaptions = "";
-        if (fields) {
+        if (!fields === undefined) {
             for (const item of fields) {
                 columnCaptions = columnCaptions + item + ",";
             }
             file.write(`${columnCaptions}\n`);
         }
-
 
         array.forEach(function(el) {
             let line = '';

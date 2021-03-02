@@ -1,23 +1,35 @@
 const LocaleCode = require('locale-code');
-const util = require("util");
-const fs = require("fs");
+const util = require('util');
+const fs = require('fs');
 const FileWriter = require('./src/FileWriter.js');
+const prompt = require('prompt-sync')();
 const inputFile = 'input.txt';
 const exporter = new FileWriter();
+
 
 const inputArr = readFiles(inputFile);
 let resultArr = [];
 let resultFile = '';
+let format = prompt(`1 - html, 2 - csv (1):`, '1');
+let ext = (format === '2') ? '.csv' : '.txt';
 
 (async() => {
     for (const langCode of inputArr) {
+        let resultString = ''
         let countryCode = langCode.substring(3);
         let localeCode = LocaleCode.getLanguageNativeName(langCode);
-        let resultString = htmlString(langCode, countryCode, localeCode);
+        if (format === '1') {
+            resultString = htmlString(langCode, countryCode, localeCode);
+        }
+        if (format === '2') {
+            resultString = txtString(langCode, countryCode, localeCode);
+        }
+
+
         resultArr.push(resultString);
         // console.log(htmlString(langCode, countryCode, localeCode));
     }
-    resultFile = await exporter.writeArray(resultArr, "result");
+    resultFile = await exporter.writeArray(resultArr, `result${ext}`);
 })();
 
 function htmlString(langCode, countryCode, localeCode) {

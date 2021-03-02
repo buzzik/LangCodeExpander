@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "locale-code": "^2.0.2",
+    "prompt-sync": "^4.2.0",
     "svg-country-flags": "^1.2.10"
   }
 }
