@@ -11,7 +11,7 @@ const inputArr = readFiles(inputFile);
 let resultArr = [];
 let resultFile = '';
 let format = prompt(`1 - html, 2 - csv (1):`, '1');
-let ext = (format === '2') ? '.csv' : '.txt';
+let ext = (format === '2') ? '.csv' : '.html';
 
 (async() => {
     for (const langCode of inputArr) {
@@ -25,19 +25,19 @@ let ext = (format === '2') ? '.csv' : '.txt';
             resultString = txtString(langCode, countryCode, localeCode);
         }
 
-
         resultArr.push(resultString);
         // console.log(htmlString(langCode, countryCode, localeCode));
     }
+    resultArr.sort();
     resultFile = await exporter.writeArray(resultArr, `result${ext}`);
 })();
 
 function htmlString(langCode, countryCode, localeCode) {
-    return `<li><img width="20px" src="../images/svg/${countryCode.toLowerCase()}.svg"/> <span class="lang-name">${capitalizeFirstLetter(localeCode)}(${countryCode})</span></li>`;
+    return `<li><span class="sorting-helper" style="display:none">${countryCode}</span><img width="20px" src="../images/svg/${countryCode.toLowerCase()}.svg"/> <span class="lang-name">${capitalizeFirstLetter(localeCode)}(${countryCode})</span></li>`;
 }
 
 function txtString(langCode, countryCode, localeCode) {
-    return `${langCode},${localeCode},${capitalizeFirstLetter(localeCode)}(${countryCode}),../images/svg/${countryCode.toLowerCase()}.svg`;
+    return `${countryCode.toLowerCase()}.svg,${langCode},${capitalizeFirstLetter(localeCode)}(${countryCode})`;
 }
 
 function readFiles(filepath) {
